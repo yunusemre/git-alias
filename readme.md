@@ -7,11 +7,11 @@ alias gp='git pull origin $(git symbolic-ref HEAD 2> /dev/null)'
 # git push origin ${branch}
 alias gpush='git push origin $(git symbolic-ref HEAD 2> /dev/null)'
 
-# git reset 
+# git reset hard
 alias grh='git reset --hard'
 
-# git add
+# git add #comment
 alias gc='git add . && git commit -am'
 
-# git checkoout
+# git checkoout ${branch}
 alias gb='git checkout'
