@@ -10,8 +10,17 @@ alias gpush='git push origin $(git symbolic-ref HEAD 2> /dev/null)'
 # git reset hard
 alias grh='git reset --hard'
 
-# git add #comment
-alias gc='git add . && git commit -am'
+# git commit
+alias ga='git add . && git commit -m'
 
 # git checkoout ${branch}
-alias gb='git checkout'
+alias gc='git checkout'
+
+# git branch ${branch}
+alias gb='git branch'
+
+# yarn start
+alias ns='yarn start'
+
+# yarn install
+alias ni='yarn install'
