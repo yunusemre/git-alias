@@ -19,8 +19,14 @@ alias gc='git checkout'
 # git branch ${branch}
 alias gb='git branch'
 
-# yarn start
-alias ns='yarn start'
+# git fetch
+alias gf='git fetch --all'
 
-# yarn install
-alias ni='yarn install'
+# git merge ${branch}
+alias gm='git merge'
+
+# npm start
+alias ns='npm start'
+
+# npm install
+alias ni='npm install'
