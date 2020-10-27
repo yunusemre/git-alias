@@ -30,3 +30,6 @@ alias ns='npm start'
 
 # npm install
 alias ni='npm install'
+
+# npm run build
+alias nb='npm run build'
